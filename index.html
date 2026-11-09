@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Masada Simulator – מצדה</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
+<style>
+  :root{--bg:#2a1d12;--panel:#3b2918;--ink:#f6e7c8;--amber:#f2b33d;color-scheme:dark}
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:radial-gradient(circle at 50% 20%,#5b3d22,#1c130b 75%);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+  body{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:24px;padding-top:max(24px,env(safe-area-inset-top));padding-bottom:max(24px,env(safe-area-inset-bottom));text-align:center}
+  h1{margin:0;color:var(--amber);font-size:clamp(1.8rem,6vw,3rem);text-shadow:0 3px 0 #000}
+  p{margin:0;max-width:30em;line-height:1.5;opacity:.9}
+  .cards{display:flex;flex-wrap:wrap;gap:16px;justify-content:center}
+  a.card{display:flex;flex-direction:column;align-items:center;gap:6px;width:min(260px,80vw);padding:22px 18px;border-radius:18px;background:var(--panel);border:3px solid var(--amber);color:var(--ink);text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.45);transition:transform .15s}
+  a.card:hover,a.card:focus{transform:translateY(-3px)}
+  .em{font-size:2.6rem}
+  b{font-size:1.35rem;color:var(--amber)}
+  small{opacity:.8}
+</style>
+</head>
+<body>
+  <h1>👑 Masada Simulator</h1>
+  <p>בחרו משחק. כדי לשחק עם חבר, שלחו לו את הקישור לדף הזה, ובמשחק לחצו על "👥 2 שחקנים".<br><span dir="ltr">Pick a game. To play with a friend, send them this page's link and press "👥 2 Players".</span></p>
+  <div class="cards">
+    <a class="card" href="sim1.html"><span class="em">🏰</span><b>Masada Simulator 1</b><small>הורדוס על החומה · Herod on the wall</small></a>
+    <a class="card" href="sim2.html"><span class="em">⛰️</span><b>Masada Simulator 2</b><small>הורדוס למרגלות ההר · Herod below Masada</small></a>
+  </div>
+</body>
+</html>
